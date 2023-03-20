@@ -1,3 +1,170 @@
 body{
-    background-color: #fff;
+    font-family: 'Roboto';
+    background-color: var(--light-color);
+    color: var(--text-color);
 }
+
+ :root {
+    --primary-brand-color: #4D5AE5
+    --pressed-state-color: #404BBF
+    --dark-color: #2E2F42
+    --success-color: #31D0AA
+    --text-color: #434455
+    --subtle-text-color: #8E8F99
+    --accent-color: #E7E9FC
+    --light-color: #F4F4FD
+    --modal-overlay-color: #2E2F42
+    --hero-background-color: #2E2F42
+    --white-color: #ffffff
+} 
+
+ul{
+  list-style: none;
+}
+
+/* .list{
+  list-style: none;
+} */
+
+/* Portfolio */
+/* Header */
+.logo{
+color: var(--modal-overlay-color);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+}
+
+.logo.primary{
+  color: #4D5AE5;
+}
+
+.logo:hover,
+.logo:hover{
+color: green;
+}
+
+/* Site nav */
+.site-nav .link{
+color: #2E2F42;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: blue
+}
+
+.feedback .link{
+color: var(--text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.feedback .link:hover,
+.feedback .link:focus{
+  color: orange
+}
+
+/* Main */
+/* Filters */
+.button{
+color: #4D5AE5;
+background-color: #F4F4FD;
+}
+
+.button.primary{
+  color: #ffffff;
+  background-color: #404BBF;
+}
+
+.button.secondary{
+color: #4D5AE5;
+background-color: #F4F4FD;
+}
+
+/* Work experience */
+
+.portfolio-content.title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+}
+
+/* Main text */
+.portfolio-content.information{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+}
+
+/* Footer */
+
+.footer.information{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #E7E9FC;
+background: #2E2F42;
+}
+
+/* Studio */
+
+/* section 1 */
+
+.hero{
+  background: #2E2F42;
+}
+/* Header 1 */
+.hero-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+color: #FFFFFF;
+}
+
+/* Header 3 */
+.header-drai{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+}
+
+/* section 2 */
+
+/* Header 2 */
+.header-zwai{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #2E2F42;
+}
+
+/* section 3 */
+
+
+
