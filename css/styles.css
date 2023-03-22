@@ -73,23 +73,6 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.button{
-color: #ffffff;
-background-color: #4D5AE5;
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-}
-
-.button:hover,
-.button:focus{
-background-color: #404BBF;
-cursor: pointer;
-}
-
 
 /* Header */
 .main-logo{
@@ -103,16 +86,13 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
-.main-logo .logo-first{
-  color: #4d5ae5;
-}
 
 .main-logo .logo-part{
   color: #2e2f42;
 }
 
-.main-logo .logo-first:hover,
-.main-logo .logo-first:focus,
+.main-logo:hover,
+.main-logo:focus,
 .main-logo .logo-part:hover,
 .main-logo .logo-part:focus{
 color: green;
@@ -161,6 +141,23 @@ color: #404bbf;
 
 .hero-section{
 background-color: #2e2f42;
+}
+
+.button{
+color: #ffffff;
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus{
+background-color: #404BBF;
+cursor: pointer;
 }
 
 /* section 4 */
