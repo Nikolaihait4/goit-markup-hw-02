@@ -62,8 +62,8 @@ color: #2e2f42;
 
 body{
 font-family: "Roboto", sans-serif;
-background-color: var(--body-background-color);
-color: var(--body-text-color);
+background-color: #FFFFFF;
+color: #434455;
 }
 
 .main-text{
