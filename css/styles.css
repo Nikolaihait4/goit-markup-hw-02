@@ -70,6 +70,7 @@ color: var(--body-text-color);
 
 /* Header */
 .main-logo{
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -154,10 +155,12 @@ background-color: var(--body-background-color);
 
 /* Footer */
 .footer-item{
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 background-color: var(--dark-color);
 }
 
@@ -178,6 +181,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: var(--accent-color);
+text-transform: capitalize;
 }
 
 /* Portfolio */
